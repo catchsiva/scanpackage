@@ -1,25 +1,11 @@
 {
-  "name": "AwsUpload",
-  "version": "1.0.0",
-  "description": "Backend for File upload to S3",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git"
-  },
-  "author": "Casey Attwell",
-  "homepage": "fujitsu.com",
+  "name": "es-cors-proxy",
+  "version": "0.1.0",
+  "description": "Proxy any es url with CORS headers",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "aws-sdk": "2.610.0",
-    "body-parser": "1.19.0",
-    "cors": "2.8.5",
-    "dotenv": "8.2.0",
-    "errorhandler": "1.5.1",
-    "express": "4.17.1",
-    "helmet": "3.21.2",
-    "morgan": "1.9.1"
-  },
-  "devDependencies": {}
+    "request": "^2.88.2"
+  }
 }
