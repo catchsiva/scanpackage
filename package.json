@@ -1,11 +1,22 @@
 {
-  "name": "es-cors-proxy",
-  "version": "0.1.0",
-  "description": "Proxy any es url with CORS headers",
+  "name": "back-login",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.88.2"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-ldapauth": "^2.1.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
+
