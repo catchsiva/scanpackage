@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@okta/okta-auth-js > node-cache > lodash':
+        patched: '2020-05-14T10:16:11.859Z'
+    - '@okta/okta-angular > @okta/okta-auth-js > node-cache > lodash':
+        patched: '2020-05-14T10:16:11.859Z'
