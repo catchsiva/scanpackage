@@ -1,47 +1,36 @@
 {
-  "name": "codescan-export",
-  "description": "Export CodeScan issues from the command line",
-  "version": "1.0.7",
-  "author": "CodeScan by VillageChief",
-  "bin": {
-    "codescan-export": "./bin/run"
-  },
-  "bugs": "https://github.com/villagechief/codescan-export/issues",
-  "dependencies": {
-    "@oclif/command": "^1.5.14",
-    "@oclif/config": "^1.13.0",
-    "@oclif/plugin-help": "^2.2.0",
-    "cli-ux": "^5.2.1",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.4"
-  },
-  "devDependencies": {
-    "@oclif/test": "^1.2.4",
-    "chai": "^4.2.0",
-    "eslint": "^5.16.0",
-    "eslint-config-oclif": "^3.1.0",
-    "mocha": "^5.2.0",
-    "nyc": "^13.3.0"
-  },
-  "engines": {
-    "node": ">=8.0.0"
-  },
-  "files": [
-    "/bin",
-    "/src"
-  ],
-  "homepage": "https://github.com/villagechief/codescan-export/",
-  "keywords": [
-    "oclif"
-  ],
-  "license": "MIT",
-  "main": "src/index.js",
-  "oclif": {
-    "bin": "codescan-export"
-  },
-  "repository": "https://github.com/villagechief/codescan-export",
+  "name": "example-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "posttest": "eslint .",
-    "test": "nyc mocha --forbid-only \"test/**/*.test.js\""
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "3.511.0",
+    "@aws-sdk/client-dynamodb-streams": "3.511.0",
+    "@aws-sdk/client-eventbridge": "3.511.0",
+    "@aws-sdk/client-kinesis": "3.511.0",
+    "@aws-sdk/client-lambda": "3.511.0",
+    "@aws-sdk/client-s3": "3.511.0",
+    "@aws-sdk/client-sns": "3.511.0",
+    "@aws-sdk/client-sqs": "3.511.0",
+    "@aws-sdk/client-ssm": "3.511.0",
+    "@aws-sdk/client-transcribe": "3.511.0",
+    "@aws-sdk/lib-dynamodb": "3.511.0",
+    "@aws-sdk/lib-storage": "3.511.0",
+    "@tsconfig/node18": "18.2.2",
+    "@tsconfig/node20": "20.1.2",
+    "@types/aws-lambda": "8.10.133",
+    "@types/jest-when": "3.5.5",
+    "@types/node": "18.19.15",
+    "husky": "9.0.10",
+    "jest-when": "3.6.0",
+    "lint-staged": "15.2.2",
+    "rimraf": "5.0.5",
+    "ts-jest": "29.1.2",
+    "xo": "0.57.0"
   }
 }
