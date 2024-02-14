@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "example-package",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -30,7 +30,6 @@
     "jest-when": "3.6.0",
     "lint-staged": "15.2.2",
     "rimraf": "5.0.5",
-    "ts-jest": "29.1.2",
-    "xo": "0.56.0"
+    "ts-jest": "29.1.2"
   }
 }
