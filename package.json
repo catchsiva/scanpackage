@@ -42,6 +42,6 @@
     "stream-buffers": "3.0.2",
     "ts-jest": "29.1.2",
     "bunyan": "1.8.15",
-    "@types/bunyan": "1.8.11"
+    "@aws-lambda-powertools/logger": "1.18.1"
   }
 }
