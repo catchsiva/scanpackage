@@ -41,6 +41,13 @@
     "rimraf": "5.0.5",
     "stream-buffers": "3.0.2",
     "ts-jest": "29.1.2",    
-    "@aws-lambda-powertools/logger": "1.18.1"
+    "@aws-lambda-powertools/logger": "1.18.1",
+    "nodemailer": "6.9.10",
+    "@types/nodemailer": "6.4.14",
+    "@aws-lambda-powertools/batch": "1.18.1",
+    "@aws-lambda-powertools/parameters": "1.18.1",
+    "@aws-lambda-powertools/metrics": "1.18.1",
+    "@aws-sdk/client-secrets-manager": "3.515.0",
+    "@aws-sdk/client-ssm": "3.515.0"
   }
 }
