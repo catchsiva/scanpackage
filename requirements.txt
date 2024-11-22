@@ -18,7 +18,7 @@ Flask==2.2.5
 Flask-WTF==1.1.1
 folium==0.14.0
 fonttools==4.47.2
-idna==3.6
+idna==3.7
 igraph==0.10.6
 importlib-metadata==7.0.1
 ipykernel==6.16.2
